@@ -6,6 +6,11 @@ p,
 li {
   font-family: sans-serif;
 }
+h1,
+h2,
+h3 {
+  color: #1098ad;
+}
 
 h1 {
   font-size: 26px;
@@ -14,11 +19,11 @@ h1 {
 }
 
 h2 {
-  font-size: 40px;
+  font-size: 30px;
 }
 
 h3 {
-  font-size: 30px;
+  font-size: 25px;
 }
 
 h4 {
@@ -36,6 +41,11 @@ li {
   font-size: 20px;
 }
 
-footer p {
+#copyright {
   font-size: 16px;
+}
+
+#author {
+  font-style: italic;
+  font-family: sans-serif;
 }
