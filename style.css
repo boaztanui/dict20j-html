@@ -19,7 +19,7 @@ h1 {
 }
 
 h2 {
-  font-size: 30px;
+  font-size: 40px;
 }
 
 h3 {
@@ -49,3 +49,48 @@ li {
   font-style: italic;
   font-family: sans-serif;
 }
+
+.related-author {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.list-items {
+  list-style: none;
+}
+
+.main-header {
+  background-color: #f7f7f7;
+}
+
+aside {
+  background-color: #f7f7f7;
+  border-top: solid 5px #1098ad;
+  border-bottom: solid 5px #1098ad;
+}
+
+li:first-child {
+  font-weight: bold;
+}
+
+/* Styling the links */
+a:link {
+  color: #1098ad;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #1098ad;
+}
+
+a:hover {
+  color: orangered;
+  font-weight: bold;
+  text-decoration: underline dotted orangered;
+}
+a:active {
+  background-color: #000;
+  font-style: italic;
+}
+
+/* LVHA */
