@@ -94,3 +94,19 @@ a:active {
 }
 
 /* LVHA */
+
+.image {
+  width: 500px;
+  box-shadow: 10px 10px 10px #e1e1e1f0;
+}
+
+/* .button {
+  background-color: #1098ad;
+  height: 30px;
+  width: 100px;
+  border-radius: 100px;
+  cursor: pointer;
+  color: #f7f7f7;
+  border: none;
+  box-shadow: 5px 5px 3px #c3c3c3f0;
+} */
