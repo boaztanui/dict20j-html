@@ -1,11 +1,12 @@
-h1,
-h2,
-h3,
-h4,
-p,
-li {
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
   font-family: sans-serif;
 }
+
 h1,
 h2,
 h3 {
@@ -20,10 +21,13 @@ h1 {
 
 h2 {
   font-size: 40px;
+  margin-bottom: 30px;
 }
 
 h3 {
   font-size: 25px;
+  margin-bottom: 20px;
+  margin-top: 30px;
 }
 
 h4 {
@@ -35,10 +39,20 @@ h4 {
 p {
   font-size: 22px;
   line-height: 1.5;
+  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 
+ul,
+ol {
+  margin-left: 50px;
+}
 li {
   font-size: 20px;
+  margin-bottom: 10px;
+}
+li:last-child {
+  margin-bottom: 0;
 }
 
 #copyright {
@@ -61,12 +75,29 @@ li {
 
 .main-header {
   background-color: #f7f7f7;
+  /* padding: 20px;
+  padding-left: 40px;
+  padding-right: 40px; */
+  padding: 20px 40px;
+  margin-bottom: 60px;
+}
+nav {
+  font-size: 18px;
+}
+article {
+  margin-bottom: 60px;
 }
 
+.post-header {
+  margin-bottom: 40px;
+}
 aside {
   background-color: #f7f7f7;
   border-top: solid 5px #1098ad;
   border-bottom: solid 5px #1098ad;
+  /* padding-top: 50px;
+  padding-bottom: 50px; */
+  padding: 50px 0;
 }
 
 li:first-child {
@@ -97,7 +128,6 @@ a:active {
 
 .image {
   width: 500px;
-  box-shadow: 10px 10px 10px #e1e1e1f0;
 }
 
 /* .button {
