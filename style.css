@@ -5,6 +5,9 @@
 
 body {
   font-family: sans-serif;
+  color: #444;
+
+  border-top: 10px solid #1098ad;
 }
 
 .navigation {
@@ -14,6 +17,8 @@ body {
   /* margin-left: auto;
   margin-right: auto; */
   margin: 0 auto;
+
+  position: relative;
 }
 
 h1,
@@ -154,6 +159,18 @@ a:active {
 .post-image img {
   width: 100%;
   height: auto;
+}
+
+button {
+  font-size: 18px;
+  padding: 18px;
+  color: #ff0000;
+
+  position: absolute;
+  /* top: 0;
+  left: 0; */
+  bottom: 50px;
+  right: 50px;
 }
 
 /* .button {
