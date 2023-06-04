@@ -7,10 +7,13 @@ body {
   font-family: sans-serif;
 }
 
+.navigation {
+}
 .container {
-  width: 700px;
-  margin-left: auto;
-  margin-right: auto;
+  width: 800px;
+  /* margin-left: auto;
+  margin-right: auto; */
+  margin: 0 auto;
 }
 
 h1,
@@ -65,14 +68,19 @@ li:last-child {
   font-size: 16px;
 }
 
-#author {
+.author {
   font-style: italic;
   font-family: sans-serif;
+  margin-bottom: 20px;
 }
 
 .related-author {
   font-size: 16px;
   font-weight: bold;
+}
+
+.author-description {
+  display: inline-block;
 }
 
 .list-items {
@@ -88,8 +96,12 @@ li:last-child {
   margin-bottom: 60px;
   height: 80px;
 }
-nav {
+.main-header nav a {
   font-size: 18px;
+  color: #1098ad;
+  font-weight: bold;
+  margin: 18px;
+  display: inline-block;
 }
 article {
   margin-bottom: 60px;
@@ -135,9 +147,6 @@ a:hover {
 a:active {
   background-color: #000;
   font-style: italic;
-}
-.author {
-  margin-bottom: 16px;
 }
 
 /* LVHA */
