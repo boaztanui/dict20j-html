@@ -11,6 +11,11 @@ body {
   border-top: 10px solid #1098ad;
 }
 
+h1::first-letter {
+  font-style: normal;
+  margin-right: 5px;
+}
+
 .navigation {
 }
 .container {
