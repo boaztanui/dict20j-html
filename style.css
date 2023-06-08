@@ -44,6 +44,23 @@ h2 {
   margin-bottom: 30px;
 }
 
+h2 {
+  position: relative;
+}
+
+h2::after {
+  content: "TOP";
+  background-color: #ffe70e;
+  color: #000000;
+  font-size: 16px;
+  font-weight: bold;
+  display: inline-block;
+  padding: 5px 10px;
+  position: absolute;
+  top: -10px;
+  right: -25px;
+}
+
 h3 {
   font-size: 25px;
   margin-bottom: 20px;
