@@ -4,6 +4,14 @@
   box-sizing: border-box;
 }
 
+.test::before {
+  content: "The Jar is ";
+}
+
+.test::after {
+  content: " now";
+}
+
 body {
   font-family: sans-serif;
   color: #444;
