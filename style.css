@@ -228,10 +228,13 @@ button {
 h1 {
   float: left;
 }
-
 nav {
   float: right;
 }
+
+/* nav {
+  float: right;
+} */
 
 article {
   width: 780px;
