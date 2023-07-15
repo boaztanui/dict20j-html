@@ -249,3 +249,7 @@ aside {
 .clear {
   clear: both;
 }
+
+.html-list {
+  margin-left: 70px;
+}

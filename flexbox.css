@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  font-family: sans-serif;
+  background-color: #ddd;
+  font-size: 40px;
+  margin: 40px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.el {
+  width: 200px;
+}
+
+.el--1 {
+  background-color: rgb(221, 38, 227);
+}
+.el--2 {
+  background-color: #fff;
+}
+.el--3 {
+  background-color: green;
+  height: 140px;
+}
+.el--4 {
+  background-color: goldenrod;
+}
+.el--5 {
+  background-color: yellow;
+}
+.el--6 {
+  background-color: palevioletred;
+}
+.el--7 {
+  background-color: crimson;
+}
+.el--8 {
+  background-color: steelblue;
+}
