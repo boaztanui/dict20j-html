@@ -83,8 +83,8 @@ ul,
 ol {
   /* margin-left: 50px; */
 }
-li {
-  font-size: 20px;
+.html-list li {
+  font-size: 21px;
   margin-bottom: 10px;
 }
 li:last-child {
